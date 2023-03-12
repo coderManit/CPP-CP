@@ -9,7 +9,7 @@
 #define sz(x) (llint)(x).size()
 #define all(v) v.begin(), v.end()
 #define desc greater<int>()
-#define forEach(seq) for(auto i: seq)
+#define forEach(seq) for(auto &i: seq)
 #define _ceil(x, y)  (x + y - 1)/y
 #define gout(i) cout << "Case #" << i << ": ";
 #define F first
@@ -18,13 +18,13 @@
 using namespace std;
 
 void solve(){
-
+    
 }
 
 int main() {
     boost;
-
-    solve();
-
+    int t; cin>>t;
+    while(t--)
+        solve();
     return 0;
 }
