@@ -1,0 +1,57 @@
+{
+	    "templateCPPcp": {
+        "scope": "cpp",
+        "prefix": "!temp",
+        "body": [
+            "#include<bits/stdc++.h>",
+            "",
+            "#define boost std::ios::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);",
+            "#define llint long long int",
+            "#define sz(x) (llint)(x).size()",
+            "#define all(v) v.begin(), v.end()",
+            "#define desc greater<int>()",
+            "#define forEach(seq) for(auto &i: seq)",
+            "#define _ceil(x, y)  (x + y - 1)/y",
+            "#define gout(i) cout << \"Case #\" << i << \": \";",
+            "#define F first",
+            "#define S second",
+            "",
+            "using namespace std;",
+            "",
+            "void solve(){",
+            "\t$0",
+            "}",
+            "",
+            "int main() {",
+            "\tboost;",
+            "\tint t; cin>>t;",
+            "\twhile(t--)",
+            "\t\tsolve();",
+            "\treturn 0;",
+            "}",
+            ""
+        ],
+        "description": "generates C++ CP template"
+    },
+	    "fastPower": {
+        "scope": "cpp",
+        "prefix": "fpw",
+        "body": [
+            "const int M = $0;",
+            "",
+            "int fpwr(int a, int b, int m=M){",
+            "\tint ans = 1;",
+            "\twhile(b){",
+            "",
+            "\t\tif(b&1){",
+            "\t\t\tans = (ans*1ll*a)%m;",
+            "\t\t}",
+            "\t\tb >>= 1;",
+            "\t\ta = (a*1ll*a)%m;",
+            "\t}",
+            "\treturn ans;",
+            "}"
+        ],
+        "description": "binary exponentiation"
+    }
+}
